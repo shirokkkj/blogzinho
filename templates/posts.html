@@ -1,0 +1,10 @@
+<ul class="list-group">
+    {%for post in posts%}
+    <li class="list-group-item">
+        <strong><span> {{post.Author}} </span></strong>
+        <p>
+            {{post.Content}}
+        </p>
+    </li>
+    {%endfor%}
+  </ul>
